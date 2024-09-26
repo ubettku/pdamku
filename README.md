@@ -10,12 +10,12 @@
 - Composer: Dependency Manager untuk PHP.
 - MySQL/SQLite: Untuk database.
 - Node.js & NPM: Untuk pengelolaan dependensi front-end.
-'''
+```
 # 2. Langkah Instalasi  
 
 ### Langkah 1: Clone Repository 
 git clone https://github.com/ubettku/pdamku.git
-'''
+```
 ### Langkah 2: Pindah ke Direktori Proyek 
 
 
@@ -25,11 +25,11 @@ cd laravel-pdamku
 
 
 code .
-'''
+```
 ### Langkah 3: Instal Dependensi Backend
 
 composer install
-'''
+```
 ### Langkah 4: Copy atau Salin File Konfigurasi (.env)
 
 ##### Salin file .env.example menjadi .env untuk mengatur variabel lingkungan atau Mengunkan Code berikut:
@@ -37,7 +37,7 @@ composer install
 
 cp .env.example .env
 
-'''
+```
 ### Langkah 5: Atur Konfigurasi .env
 
 
@@ -48,7 +48,7 @@ cp .env.example .env
  DB_USERNAME=root
  DB_PASSWORD=
 
-'''
+```
 ### Langkah 6: Migrasi Database
 
 - Buat sebuah Databases Di xampp Terlebih Dahulu
@@ -59,7 +59,7 @@ php artisan migrate
 
 
 
-'''
+```
 ### Langkah 7: Generate Application Key
 
 - Langkah ini sangat penting untuk setiap aplikasi Laravel, karena tanpa kunci ini, beberapa fitur tidak akan berjalan sebagaimana mestinya jadi harus di jalankan ya perintanya kalo mau menggunakan Source Code ini ya semoga berhasil :blush: :
@@ -67,11 +67,11 @@ php artisan migrate
 
 php artisan key:generate
 
-'''
+```
 ### Langkah 8: Jalankan Server Pengembang
 
 
 php artisan serve
 
 
-'''
+
