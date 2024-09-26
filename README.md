@@ -5,17 +5,17 @@
 
 # 1. Prasyarat 
 ### Pastikan perangkat Anda telah memenuhi prasyarat berikut sebelum menginstal Repository ini:
-
+'''
 - PHP: Versi 8.1 atau lebih baru.
 - Composer: Dependency Manager untuk PHP.
 - MySQL/SQLite: Untuk database.
 - Node.js & NPM: Untuk pengelolaan dependensi front-end.
 
 # 2. Langkah Instalasi  
-'''
+
 ### Langkah 1: Clone Repository 
 git clone https://github.com/ubettku/pdamku.git
-'''
+
 ### Langkah 2: Pindah ke Direktori Proyek 
 
 
